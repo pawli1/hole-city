@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #111;
+  font-family: Arial, sans-serif;
+}
+
+#ui {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+  color: white;
+}
+
+#resetBtn {
+  margin-top: 10px;
+  padding: 10px 18px;
+  background: #ff0066;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#resetBtn:hover {
+  background: #ff3380;
+}
+
+canvas {
+  display: block;
+}
