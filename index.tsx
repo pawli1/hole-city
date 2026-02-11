@@ -1,15 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>X9M8 Hole City</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-const rootElement = document.getElementById('root');
-if (!rootElement) {
-  throw new Error("Could not find root element to mount to");
-}
+<body>
+  <div id="ui">
+    <h1>X9M8 HOLE CITY</h1>
+    <button id="resetBtn">RESET</button>
+  </div>
 
-const root = ReactDOM.createRoot(rootElement);
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+  <canvas id="game"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
